@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/hca-exhibition/static/css/main.c09521b9.css",
+    "main.js": "/hca-exhibition/static/js/main.01a00e96.js",
+    "index.html": "/hca-exhibition/index.html",
+    "main.c09521b9.css.map": "/hca-exhibition/static/css/main.c09521b9.css.map",
+    "main.01a00e96.js.map": "/hca-exhibition/static/js/main.01a00e96.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c09521b9.css",
+    "static/js/main.01a00e96.js"
+  ]
+}
