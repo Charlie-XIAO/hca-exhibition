@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/hca-exhibition/static/css/main.c09521b9.css",
-    "main.js": "/hca-exhibition/static/js/main.01a00e96.js",
+    "main.css": "/hca-exhibition/static/css/main.8371a1d6.css",
+    "main.js": "/hca-exhibition/static/js/main.34b9f749.js",
     "index.html": "/hca-exhibition/index.html",
-    "main.c09521b9.css.map": "/hca-exhibition/static/css/main.c09521b9.css.map",
-    "main.01a00e96.js.map": "/hca-exhibition/static/js/main.01a00e96.js.map"
+    "main.8371a1d6.css.map": "/hca-exhibition/static/css/main.8371a1d6.css.map",
+    "main.34b9f749.js.map": "/hca-exhibition/static/js/main.34b9f749.js.map"
   },
   "entrypoints": [
-    "static/css/main.c09521b9.css",
-    "static/js/main.01a00e96.js"
+    "static/css/main.8371a1d6.css",
+    "static/js/main.34b9f749.js"
   ]
 }
