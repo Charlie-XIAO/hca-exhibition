@@ -3,9 +3,9 @@ import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import ArrowDropUpIcon from "@mui/icons-material/ArrowDropUp";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
+import { meta } from "../../content_option";
 
 export const Introduction = () => {
   return (
@@ -13,7 +13,7 @@ export const Introduction = () => {
       <Container className="Intro-header">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Introduction</title>
+          <title>{meta.title} | Introduction</title>
         </Helmet>
         <Row className="mb-5 mt-3 pt-md-3">
           <Col lg="8">
@@ -92,7 +92,7 @@ export const Introduction = () => {
           <span className="text_2" onClick={() => window.scrollTo(0, 0)}>
             <div className="cur_btn btn">
               <div style={{ display: "flex", alignItems: "center" }}>
-                Introduction
+                Back to top
               </div>
             </div>
           </span>

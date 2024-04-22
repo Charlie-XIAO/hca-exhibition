@@ -4,6 +4,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
+import { meta } from "../../content_option";
 
 export const Epilogue = () => {
   return (
@@ -11,7 +12,7 @@ export const Epilogue = () => {
       <Container className="Epilogue-header">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Epilogue</title>
+          <title>{meta.title} | Epilogue</title>
         </Helmet>
         <Row className="mb-5 mt-3 pt-md-3">
           <Col lg="8">
@@ -90,7 +91,7 @@ export const Epilogue = () => {
           <span className="text_2" onClick={() => window.scrollTo(0, 0)}>
             <div className="cur_btn btn">
               <div style={{ display: "flex", alignItems: "center" }}>
-                Epilogue
+                Back to top
               </div>
             </div>
           </span>

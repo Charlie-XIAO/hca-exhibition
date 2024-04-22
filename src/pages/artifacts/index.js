@@ -6,6 +6,8 @@ import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import { dataportfolio } from "../../content_option";
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
+import Typewriter from "typewriter-effect";
+import { meta } from "../../content_option";
 
 const SingleArtifact = ({ item }) => {
   const ref = useRef(null);
@@ -21,10 +23,23 @@ const SingleArtifact = ({ item }) => {
             <div className="artifact-caption">{item.caption}</div>
           </div>
           <motion.div className="artifact-text" style={{ y }}>
-            <h2 className="artifact-title">
+            <h3 className="artifact-title">
               <span>{item.title}</span>
-              <span className="artifact-title-zh">【{item.title_zh}】</span>
-            </h2>
+              <span className="artifact-title-sub">
+                <Typewriter
+                  options={{
+                    strings: [
+                      `【${item.title_zh}】`,
+                      item.time,
+                    ],
+                    autoStart: true,
+                    loop: true,
+                    deleteSpeed: 10,
+                    delay: 100,
+                  }}
+                />
+              </span>
+            </h3>
             <hr className="artifact-title-hr" />
             <p dangerouslySetInnerHTML={{ __html: item.desc }} />
             <div className="artifact-ref">
@@ -60,7 +75,7 @@ export const Artifacts = () => {
       <div className="Artifacts-header" ref={ref}>
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Artifacts</title>
+          <title>{meta.title} | Artifacts</title>
         </Helmet>
         <div className="artifact-progress">
           <div className="artifact-progress-heading">
