@@ -21,9 +21,12 @@ const SingleArtifact = ({ item }) => {
             <div className="artifact-caption">{item.caption}</div>
           </div>
           <motion.div className="artifact-text" style={{ y }}>
-            <h2>{item.title}</h2>
+            <h2 className="artifact-title">
+              <span>{item.title}</span>
+              <span className="artifact-title-zh">【{item.title_zh}】</span>
+            </h2>
             <hr className="artifact-title-hr" />
-            <p>{item.desc}</p>
+            <p dangerouslySetInnerHTML={{ __html: item.desc }} />
             <div className="artifact-ref">
               <strong>References</strong>
               <ol>
