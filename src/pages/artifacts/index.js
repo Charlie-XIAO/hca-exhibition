@@ -28,10 +28,7 @@ const SingleArtifact = ({ item }) => {
               <span className="artifact-title-sub">
                 <Typewriter
                   options={{
-                    strings: [
-                      `【${item.title_zh}】`,
-                      item.time,
-                    ],
+                    strings: [`【${item.title_zh}】`, item.time],
                     autoStart: true,
                     loop: true,
                     deleteSpeed: 10,

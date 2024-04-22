@@ -254,3 +254,7 @@ section {
 .intro_sec .h_bg-image {
   filter: saturate(0.5);
 }
+
+[data-theme="dark"] .cover-img-long {
+  opacity: 0.7;
+}

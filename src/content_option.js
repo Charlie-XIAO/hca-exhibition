@@ -93,15 +93,15 @@ const dataportfolio = [
     time: "25-220 CE",
     caption:
       "Clay. China. Eastern Han dynasty (25-220) or later. L. 33.7cm, W. 17cm, D. 6cm. Excavated 1988, Jinqueshan, Linyi Municipality. Collection of Linyi Municipality Museum.",
-    desc: "Dragons in the Eastern Han dynasty had tails, and the long sinuous body became more like a dog, and this shape continued right up to the Tang dynasty. Many examples of engravings of such beasts exist. Dragons have long been associated with dogs. There is a story that was popular during the Three Kingdoms Period about a man called Lu Junchang who saw two white dogs with elongated bodies and broad chests frolicking about the fields as if floating on a cloud. They dived into a pool, and out flew two dragons a little later, leaving a raging storm in their wake. Back to the artifact, known as the siling, or \"four spirits,\" the Green Dragon of the East, White Tiger of the West, Red Bird of the South, and Dark Warrior of the North are the animals of the four directions. The sinuous, undulating body of the Green Dragon moves forward as he raises his rear haunches and springs into action. His elongated jaw and open mouth end in fork-shaped lips. His horns or ears are perked back into curls. The clawed feet of three legs seem to shovel the air forward in frenetic motion while his uppermost leg reaches toward his mouth.",
+    desc: 'Dragons in the Eastern Han dynasty had tails, and the long sinuous body became more like a dog, and this shape continued right up to the Tang dynasty. Many examples of engravings of such beasts exist. Dragons have long been associated with dogs. There is a story that was popular during the Three Kingdoms Period about a man called Lu Junchang who saw two white dogs with elongated bodies and broad chests frolicking about the fields as if floating on a cloud. They dived into a pool, and out flew two dragons a little later, leaving a raging storm in their wake. Back to the artifact, known as the siling, or "four spirits," the Green Dragon of the East, White Tiger of the West, Red Bird of the South, and Dark Warrior of the North are the animals of the four directions. The sinuous, undulating body of the Green Dragon moves forward as he raises his rear haunches and springs into action. His elongated jaw and open mouth end in fork-shaped lips. His horns or ears are perked back into curls. The clawed feet of three legs seem to shovel the air forward in frenetic motion while his uppermost leg reaches toward his mouth.',
     ref: [
       {
         href: "https://www.asianart.com/exhibitions/shandong/28.html",
-        text: "Directional Tomb Tile with Green Dragon of the East. Providing for the Afterlife: \"Brilliant Artifacts\" from Shandong. China Institute Gallery, New York, Feb 3 to Jun 4, 2005."
+        text: 'Directional Tomb Tile with Green Dragon of the East. Providing for the Afterlife: "Brilliant Artifacts" from Shandong. China Institute Gallery, New York, Feb 3 to Jun 4, 2005.',
       },
       {
         href: "https://www.amazon.com/All-About-Chinese-Dragons-Bates/dp/1435703227",
-        text: "Bates, Roy. All about Chinese dragons. 2007."
+        text: "Bates, Roy. All about Chinese dragons. 2007.",
       },
     ],
   },
@@ -112,15 +112,15 @@ const dataportfolio = [
     time: "1368-1644 CE",
     caption:
       "Silk and metallic-thread embroidery on plain-weave silk. China. Ming dynasty (1368-1644). The Metropolitan Museum of Art.",
-    desc: "The first Ming emperor, in his determination to eliminate anything that was Yuan, introduced the five-clawed <i>Long</i> dragon in contrast to the earlier four and three-clawed dragons, shortly after he ascended to the throne. Apart from wanting to eschew anything associated with the Mongol conquerors, he probably felt that the number of five had greater significance, especially since it was associated with the five elements. He firmly adopted the five-clawed dragon as his emblem of imperial power, and this became the standard emblem for all Ming emperors and an indicator of imperial flavor. Four and three-clawed were then relegated to being representation of lower rank. Emperors referred to themselves as the \"Dragon Son of Heaven.\"【真龍天子】It was mandated that only the emperor's personal items and clothing could depict the image of the five-clawed dragon, while elsewhere, the figure of a serpent (since serpents have four claws and dragons have five) was used for differentiation.",
+    desc: 'The first Ming emperor, in his determination to eliminate anything that was Yuan, introduced the five-clawed <i>Long</i> dragon in contrast to the earlier four and three-clawed dragons, shortly after he ascended to the throne. Apart from wanting to eschew anything associated with the Mongol conquerors, he probably felt that the number of five had greater significance, especially since it was associated with the five elements. He firmly adopted the five-clawed dragon as his emblem of imperial power, and this became the standard emblem for all Ming emperors and an indicator of imperial flavor. Four and three-clawed were then relegated to being representation of lower rank. Emperors referred to themselves as the "Dragon Son of Heaven."【真龍天子】It was mandated that only the emperor\'s personal items and clothing could depict the image of the five-clawed dragon, while elsewhere, the figure of a serpent (since serpents have four claws and dragons have five) was used for differentiation.',
     ref: [
       {
         href: "https://library.artstor.org/#/asset/SS7731421_7731421_11174436",
-        text: "Badge with Five-Clawed Dragon Surrounded by Plum Blossoms. Late 16th to early 17th century. Artstor."
+        text: "Badge with Five-Clawed Dragon Surrounded by Plum Blossoms. Late 16th to early 17th century. Artstor.",
       },
       {
         href: "https://www.amazon.com/All-About-Chinese-Dragons-Bates/dp/1435703227",
-        text: "Bates, Roy. All about Chinese dragons. 2007."
+        text: "Bates, Roy. All about Chinese dragons. 2007.",
       },
     ],
   },
