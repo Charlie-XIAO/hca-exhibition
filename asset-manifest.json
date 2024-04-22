@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/hca-exhibition/static/css/main.69b4e438.css",
-    "main.js": "/hca-exhibition/static/js/main.7e43d733.js",
+    "main.css": "/hca-exhibition/static/css/main.ebcbccd1.css",
+    "main.js": "/hca-exhibition/static/js/main.71e30623.js",
     "static/media/pig-dragon.png": "/hca-exhibition/static/media/pig-dragon.6fae3165d89752c6af38.png",
     "static/media/arched-dragon-pendants.jpg": "/hca-exhibition/static/media/arched-dragon-pendants.a150a6dd86cf01f2b0e4.jpg",
+    "static/media/ding-with-taotie-decor.jpg": "/hca-exhibition/static/media/ding-with-taotie-decor.baa0368cd95e9184028a.jpg",
+    "static/media/panel-with-dragon.jpg": "/hca-exhibition/static/media/panel-with-dragon.3c18e40832dadd2b1816.jpg",
     "index.html": "/hca-exhibition/index.html",
-    "main.69b4e438.css.map": "/hca-exhibition/static/css/main.69b4e438.css.map",
-    "main.7e43d733.js.map": "/hca-exhibition/static/js/main.7e43d733.js.map"
+    "main.ebcbccd1.css.map": "/hca-exhibition/static/css/main.ebcbccd1.css.map",
+    "main.71e30623.js.map": "/hca-exhibition/static/js/main.71e30623.js.map"
   },
   "entrypoints": [
-    "static/css/main.69b4e438.css",
-    "static/js/main.7e43d733.js"
+    "static/css/main.ebcbccd1.css",
+    "static/js/main.71e30623.js"
   ]
 }
