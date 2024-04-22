@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import "./style.css";
-import { VscGrabber, VscClose } from "react-icons/vsc";
+import MenuIcon from "@mui/icons-material/Menu";
+import CloseIcon from "@mui/icons-material/Close";
 import { Link } from "react-router-dom";
 import { logotext, socialprofils } from "../content_option";
+import { FaGithub } from "react-icons/fa";
 import Themetoggle from "../components/themetoggle";
 
 const Headermain = () => {
@@ -22,8 +24,19 @@ const Headermain = () => {
           </Link>
           <div className="d-flex align-items-center">
             <Themetoggle />
-            <button className="menu__button  nav_ac" onClick={handleToggle}>
-              {!isActive ? <VscClose /> : <VscGrabber />}
+            {socialprofils.github && (
+              <button className="menu__button nav_ac">
+                <a href={socialprofils.github} target="_blank" rel="noreferrer">
+                  <FaGithub style={{ width: "1rem", height: "1rem" }} />
+                </a>
+              </button>
+            )}
+            <button className="menu__button nav_ac" onClick={handleToggle}>
+              {!isActive ? (
+                <CloseIcon style={{ width: "1.5rem", height: "1.5rem" }} />
+              ) : (
+                <MenuIcon style={{ width: "1.5rem", height: "1.5rem" }} />
+              )}
             </button>
           </div>
         </div>
@@ -33,13 +46,13 @@ const Headermain = () => {
             <div className="menu__wrapper">
               <div className="menu__container p-3">
                 <ul className="the_menu">
-                  <li className="menu_item ">
-                    <Link onClick={handleToggle} to="/" className="my-3">
+                  <li className="menu_item">
+                    <Link onClick={handleToggle} to="/" className="my-2">
                       Home
                     </Link>
                   </li>
                   <li className="menu_item">
-                    <Link onClick={handleToggle} to="/intro" className="my-3">
+                    <Link onClick={handleToggle} to="/intro" className="my-2">
                       Introduction
                     </Link>
                   </li>
@@ -47,7 +60,7 @@ const Headermain = () => {
                     <Link
                       onClick={handleToggle}
                       to="/artifacts"
-                      className="my-3"
+                      className="my-2"
                     >
                       Artifacts
                     </Link>
@@ -56,26 +69,13 @@ const Headermain = () => {
                     <Link
                       onClick={handleToggle}
                       to="/epilogue"
-                      className="my-3"
+                      className="my-2"
                     >
                       Epilogue
                     </Link>
                   </li>
                 </ul>
               </div>
-            </div>
-          </div>
-          <div className="menu_footer d-flex flex-column flex-md-row justify-content-between align-items-md-center position-absolute w-100 p-3">
-            <div className="d-flex">
-              {socialprofils.facebook && (
-                <a href={socialprofils.facebook}>Facebook</a>
-              )}
-              {socialprofils.github && (
-                <a href={socialprofils.github}>Github</a>
-              )}
-              {socialprofils.twitter && (
-                <a href={socialprofils.twitter}>Twitter</a>
-              )}
             </div>
           </div>
         </div>

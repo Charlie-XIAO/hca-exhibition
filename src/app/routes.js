@@ -4,7 +4,6 @@ import withRouter from "../hooks/withRouter";
 import { Home } from "../pages/home";
 import { Epilogue } from "../pages/epilogue";
 import { Introduction } from "../pages/intro";
-import { Socialicons } from "../components/socialicons";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 import { Artifacts } from "../pages/artifacts";
 
@@ -34,7 +33,6 @@ function AppRoutes() {
   return (
     <div className="s_c">
       <AnimatedRoutes />
-      <Socialicons />
     </div>
   );
 }

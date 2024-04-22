@@ -98,6 +98,26 @@ section {
   position: relative;
 }
 
+.cur_btn {
+  padding: 4px 19px;
+  color: var(--secondary-color);
+  position: relative;
+  border: var(--secondary-color) 2px solid;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 0;
+  margin-right: 20px;
+}
+
+.cur_btn a {
+  text-decoration: none;
+}
+
+.cur_btn:hover {
+  color: var(--text-color-3);
+  border: var(--text-color-3) 2px solid;
+}
+
 .ac_btn {
   padding: 4px 19px;
   color: var(--secondary-color);

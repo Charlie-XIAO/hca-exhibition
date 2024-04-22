@@ -3,6 +3,7 @@ import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import ArrowDropUpIcon from "@mui/icons-material/ArrowDropUp";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 
@@ -78,7 +79,7 @@ export const Introduction = () => {
         </Row>
         <div className="intro_btn-action pb-5">
           <Link to="/" className="text_2">
-            <div id="button_p" className="ac_btn btn ">
+            <div id="button_p" className="ac_btn btn">
               <div style={{ display: "flex", alignItems: "center" }}>
                 <ChevronLeftIcon />
                 Home
@@ -88,8 +89,15 @@ export const Introduction = () => {
               <div className="ring three"></div>
             </div>
           </Link>
+          <span className="text_2" onClick={() => window.scrollTo(0, 0)}>
+            <div className="cur_btn btn">
+              <div style={{ display: "flex", alignItems: "center" }}>
+                Introduction
+              </div>
+            </div>
+          </span>
           <Link to="/artifacts" className="text_2">
-            <div id="button_h" className="ac_btn btn ">
+            <div id="button_h" className="ac_btn btn">
               <div style={{ display: "flex", alignItems: "center" }}>
                 Artifacts
                 <ChevronRightIcon />

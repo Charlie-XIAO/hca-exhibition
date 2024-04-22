@@ -15,14 +15,12 @@
 }
 
 .menu__button svg {
-  width: 2em;
-  height: 2em;
   fill: var(--text-color-2);
   color: var(--text-color-2);
 }
 
 .nav_ac {
-  padding: 5px 15px;
+  padding: 5px 5px 5px 15px;
   margin: 0;
   border: unset;
   background: var(--primary-color);
@@ -174,7 +172,7 @@
 .the_menu .menu_item > a {
   color: var(--text-color-2);
   line-height: 1;
-  font-size: 2rem;
+  font-size: 1.5rem;
   display: inline-block;
   position: relative;
   transition: color 250ms cubic-bezier(0, 0, 0.58, 1) 0s;
@@ -185,23 +183,4 @@
 
 .the_menu .menu_item > a:hover {
   color: var(--text-color-3);
-}
-
-@media (min-width: 768px) {
-  .the_menu .menu_item > a {
-    font-size: 4.8vw;
-  }
-}
-
-.menu_footer {
-  bottom: 0;
-  font-family: Marcellus;
-  font-size: 14px;
-  background: var(--primary-color);
-}
-
-.menu_footer a {
-  color: var(--text-color-2);
-  margin-right: 10px;
-  text-decoration: none;
 }

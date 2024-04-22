@@ -1,64 +1,99 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import { Container, Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import { dataportfolio } from "../../content_option";
+import { motion, useScroll, useSpring, useTransform } from "framer-motion";
+
+const SingleArtifact = ({ item }) => {
+  const ref = useRef(null);
+  const { scrollYProgress } = useScroll({ target: ref });
+  const y = useTransform(scrollYProgress, [0, 1], [-100, 100]);
+
+  return (
+    <section>
+      <div className="artifact-container">
+        <div className="artifact-wrapper">
+          <div className="artifact-image" ref={ref}>
+            <img src={item.img} alt="" />
+            <div className="artifact-caption">{item.caption}</div>
+          </div>
+          <motion.div className="artifact-text" style={{ y }}>
+            <h2>{item.title}</h2>
+            <hr className="artifact-title-hr" />
+            <p>{item.desc}</p>
+            <div className="artifact-ref">
+              <strong>References</strong>
+              <ol>
+                {item.ref.map((ref, i) => (
+                  <li key={i}>
+                    <span>{ref.text}</span>
+                    <a href={ref.href} target="_blank" rel="noreferrer">
+                      [Link]
+                    </a>
+                  </li>
+                ))}
+              </ol>
+            </div>
+          </motion.div>
+        </div>
+      </div>
+    </section>
+  );
+};
 
 export const Artifacts = () => {
+  const ref = useRef(null);
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["end end", "start start"],
+  });
+  const scaleX = useSpring(scrollYProgress, { stiffness: 100, damping: 30 });
+
   return (
     <HelmetProvider>
-      <Container className="Artifacts-header">
+      <div className="Artifacts-header" ref={ref}>
         <Helmet>
           <meta charSet="utf-8" />
           <title>Artifacts</title>
         </Helmet>
-        <Row className="mb-5 mt-3 pt-md-3">
-          <Col lg="8">
-            <h1 className="display-4 mb-4">Artifact Gallery</h1>
-            <hr className="t_border my-4 ml-0 text-left" />
-          </Col>
-        </Row>
-        <div className="mb-5 po_items_ho">
-          {dataportfolio.map((data, i) => {
-            return (
-              <div key={i} className="po_item">
-                <img src={data.img} alt="" />
-                <div className="content">
-                  <p>{data.description}</p>
-                  <a href={data.link}>view project</a>
+        <div className="artifact-progress">
+          <div className="artifact-progress-heading">
+            <Link to="/intro" className="text_2">
+              <div id="button_p" className="ac_btn btn ">
+                <div style={{ display: "flex", alignItems: "center" }}>
+                  <ChevronLeftIcon />
+                  Introduction
                 </div>
+                <div className="ring one"></div>
+                <div className="ring two"></div>
+                <div className="ring three"></div>
               </div>
-            );
-          })}
+            </Link>
+            <h1 className="display-4">Artifacts</h1>
+            <Link to="/epilogue" className="text_2">
+              <div id="button_h" className="ac_btn btn ">
+                <div style={{ display: "flex", alignItems: "center" }}>
+                  Epilogue
+                  <ChevronRightIcon />
+                </div>
+                <div className="ring one"></div>
+                <div className="ring two"></div>
+                <div className="ring three"></div>
+              </div>
+            </Link>
+          </div>
+          <motion.div
+            className="artifact-progress-bar"
+            style={{ scaleX }}
+          ></motion.div>
         </div>
-        <div className="intro_btn-action pb-5">
-          <Link to="/intro" className="text_2">
-            <div id="button_p" className="ac_btn btn ">
-              <div style={{ display: "flex", alignItems: "center" }}>
-                <ChevronLeftIcon />
-                Introduction
-              </div>
-              <div className="ring one"></div>
-              <div className="ring two"></div>
-              <div className="ring three"></div>
-            </div>
-          </Link>
-          <Link to="/epilogue" className="text_2">
-            <div id="button_h" className="ac_btn btn ">
-              <div style={{ display: "flex", alignItems: "center" }}>
-                Epilogue
-                <ChevronRightIcon />
-              </div>
-              <div className="ring one"></div>
-              <div className="ring two"></div>
-              <div className="ring three"></div>
-            </div>
-          </Link>
-        </div>
-      </Container>
+        {dataportfolio.map((item, i) => (
+          <SingleArtifact item={item} key={i} />
+        ))}
+      </div>
     </HelmetProvider>
   );
 };

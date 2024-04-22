@@ -87,6 +87,13 @@ export const Epilogue = () => {
               <div className="ring three"></div>
             </div>
           </Link>
+          <span className="text_2" onClick={() => window.scrollTo(0, 0)}>
+            <div className="cur_btn btn">
+              <div style={{ display: "flex", alignItems: "center" }}>
+                Epilogue
+              </div>
+            </div>
+          </span>
         </div>
       </Container>
     </HelmetProvider>
