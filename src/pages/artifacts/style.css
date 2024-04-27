@@ -77,6 +77,10 @@ section {
   border-radius: 5px;
 }
 
+[data-theme="dark"] .artifact-image img {
+  filter: brightness(0.8);
+}
+
 .artifact-image .artifact-caption {
   text-align: center;
   font-size: 0.8rem;

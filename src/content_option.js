@@ -4,6 +4,8 @@ import imgPanelWithDragon from "./assets/panel-with-dragon.jpg";
 import imgDingWithTaotieDecor from "./assets/ding-with-taotie-decor.jpg";
 import imgTombGreenDragon from "./assets/tomb-green-dragon.jpg";
 import imgFiveClawedDragon from "./assets/five-clawed-dragon.png";
+import imgJadeDragon from "./assets/jade-dragon.jpg";
+import imgDragonBiDisc from "./assets/dragon-bi-disc.jpg";
 import imgCover from "./assets/cover.jpeg";
 
 const logotext = "LONG【龍】";
@@ -25,6 +27,25 @@ const introdata = {
 };
 
 const dataportfolio = [
+  {
+    img: imgJadeDragon,
+    title: "Jade Dragon",
+    title_zh: "玉龍",
+    time: "4500-3000 BCE",
+    caption:
+      "Jade. Earliest known in the Neolithic Age. Some of the Jade Dragons are currently housed in National Museum of China, British Museum, National Palace Museum in Taipei, and the Palace Museum.",
+    desc: "The Jade Dragon artifacts are primarily carved from jade, a precious stone highly valued in Chinese culture. The specific type of jade varies, with some being dark green Xiuyan jade and others being black and green jade. The term \"jade\" in Chinese, 玉 (yù), refers to different minerals including serpentine and bowenite. The Jade Dragon artifacts represent a significant part of Chinese cultural heritage, symbolizing power, hope, and the high status of dragons in Chinese mythology and art. Jade Dragons have been unearthed in various locations across China, with notable sites including:\n\n<ul style=\"list-style: initial;\"><li>Inner Mongolia Autonomous Region</li><li>Hongshan, Inner Mongolia, China</li><li>Hongshan Culture sites in present-day Inner Mongolia</li><li>Lingjiatan in Hanshan County, Anhui Province</li><li>\"Xiao Jia Wu Ji\" (Ridge of Xiao's Family) in Tianmen City, Hubei Province</li></ul>",
+    ref: [
+      {
+        href: "https://en.chnmuseum.cn/collections_577/collection_highlights_608/artifacts_handed___down_from_ancient_times_612/202008/t20200831_247580.html",
+        text: "Jade Dragon. National Museum of China",
+      },
+      {
+        href: "http://en.chinaculture.org/library/2008-01/22/content_37984.htm",
+        text: "Jade Dragon. China Culture.",
+      },
+    ],
+  },
   {
     img: imgPigDragon,
     title: "Pig Dragon",
@@ -60,6 +81,25 @@ const dataportfolio = [
       {
         href: "https://www.christies.com/en/stories/mythical-creatures-in-the-life-and-art-of-ancient-china-c1c2d296024540649dddefa739e53cb4",
         text: "Mythical Creatures in the Life and Art of Ancient China. Christie's.",
+      },
+    ],
+  },
+  {
+    img: imgDragonBiDisc,
+    title: "Dragon Bi Disc",
+    title_zh: "龍紋璧",
+    time: "1046-256 BCE",
+    caption:
+      "Jade (typically nephrite). Excavated from various sites across China often in burial sites. Most prevalent duting the Zhou dynasty. Housed in several museums including The British Museum in London, The Metropolitan Museum of Art in New York, and the National Palace Museum in Taipei.",
+    desc: "The dragon bi disc was found ranging from the Neolithic period through the Han Dynasty, with dragon motifs becoming prevalent during the Shang, Zhou, and Han dynasties. The dragon bi disc is a type of ancient Chinese jade artifact. The bi disc is a flat, circular jade disc with a hole in the center, and the dragon motif is a common decorative element on these discs. The dragon is a symbol of power, strength, and good luck in Chinese culture. The dragon motifs on bi discs from the Han dynasty and later periods are particularly notable for their complexity and beauty. The dragons are typically depicted amidst clouds, symbolizing their celestial nature and control over rain and water. The craftsmanship involved in creating these motifs was highly sophisticated, especially considering the hardness of jade and the lack of metal tools during the Neolithic period. The artisans would have used techniques such as abrasion and polishing to achieve the intricate designs.",
+    ref: [
+      {
+        href: "https://www.invaluable.com/blog/chinese-bi-disc/",
+        text: "The Chinese BI Disc: History & Cultural Significance. Invaluable, 16 Jan. 2023",
+      },
+      {
+        href: "https://www.shimu.co.uk/blogs/news/the-mystery-and-symbolism-of-the-chinese-jade-bi",
+        text: "Cottrell, James. The Mystery and Symbolism of Chinese Jade Bi. Shimu, 24 May 2022",
       },
     ],
   },
