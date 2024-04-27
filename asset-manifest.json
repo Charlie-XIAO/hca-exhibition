@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/hca-exhibition/static/css/main.5b577bd8.css",
-    "main.js": "/hca-exhibition/static/js/main.cc3e210c.js",
+    "main.css": "/hca-exhibition/static/css/main.4bd8c57e.css",
+    "main.js": "/hca-exhibition/static/js/main.19fa8fe3.js",
     "static/media/pig-dragon.png": "/hca-exhibition/static/media/pig-dragon.6fae3165d89752c6af38.png",
     "static/media/five-clawed-dragon.png": "/hca-exhibition/static/media/five-clawed-dragon.4702a268635bd0919cf9.png",
     "static/media/arched-dragon-pendants.jpg": "/hca-exhibition/static/media/arched-dragon-pendants.a150a6dd86cf01f2b0e4.jpg",
     "static/media/ding-with-taotie-decor.jpg": "/hca-exhibition/static/media/ding-with-taotie-decor.baa0368cd95e9184028a.jpg",
     "static/media/cover.jpeg": "/hca-exhibition/static/media/cover.3092317398036e6b2936.jpeg",
+    "static/media/dragon-bi-disc.jpg": "/hca-exhibition/static/media/dragon-bi-disc.68b1799c14bffe9cd29c.jpg",
     "static/media/panel-with-dragon.jpg": "/hca-exhibition/static/media/panel-with-dragon.3c18e40832dadd2b1816.jpg",
     "static/media/tomb-green-dragon.jpg": "/hca-exhibition/static/media/tomb-green-dragon.01ef5a650251c358c095.jpg",
+    "static/media/jade-dragon.jpg": "/hca-exhibition/static/media/jade-dragon.1704bca583b5e49e5af0.jpg",
     "index.html": "/hca-exhibition/index.html",
-    "main.5b577bd8.css.map": "/hca-exhibition/static/css/main.5b577bd8.css.map",
-    "main.cc3e210c.js.map": "/hca-exhibition/static/js/main.cc3e210c.js.map"
+    "main.4bd8c57e.css.map": "/hca-exhibition/static/css/main.4bd8c57e.css.map",
+    "main.19fa8fe3.js.map": "/hca-exhibition/static/js/main.19fa8fe3.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b577bd8.css",
-    "static/js/main.cc3e210c.js"
+    "static/css/main.4bd8c57e.css",
+    "static/js/main.19fa8fe3.js"
   ]
 }
