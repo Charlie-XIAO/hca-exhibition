@@ -24,7 +24,7 @@ export const Introduction = () => {
         <Row className="sec_sp">
           <Col lg="12">
             <div>
-              <h2>Early Dynastic Period to Han Dynasty</h2>
+              <h3>Early Dynastic Period to Han Dynasty</h3>
               <p>
                 In the early dynastic periods, dragons were primarily depicted
                 as serpentine creatures amalgamating various animal features,
@@ -36,7 +36,7 @@ export const Introduction = () => {
                 in art and literature as controlling the weather and water,
                 crucial for agriculture.
               </p>
-              <h2>Tang Dynasty to Yuan Dynasty</h2>
+              <h3>Tang Dynasty to Yuan Dynasty</h3>
               <p>
                 During the Tang and subsequent dynasties, the dragon's imagery
                 became more standardized and sophisticated, reflecting the
@@ -47,7 +47,7 @@ export const Introduction = () => {
                 the dragon evolving from a general symbol of good fortune to a
                 specific emblem of the emperor's divine right to rule.
               </p>
-              <h2>Ming and Qing Dynasties</h2>
+              <h3>Ming and Qing Dynasties</h3>
               <p>
                 The Ming and Qing dynasties saw the pinnacle of dragon symbolism
                 in imperial power. The dragon during these periods was almost
@@ -58,7 +58,7 @@ export const Introduction = () => {
                 governing who could use and display dragon imagery, reinforcing
                 social hierarchies and the exclusivity of the emperor's power.
               </p>
-              <h2>Modern Interpretations</h2>
+              <h3>Modern Interpretations</h3>
               <p>
                 In contemporary times, the dragon continues to be a revered
                 symbol in Chinese culture, though its imperial connotations have
@@ -68,7 +68,7 @@ export const Introduction = () => {
                 dragon symbolizes general prosperity, cultural heritage, and
                 national strength rather than royal authority.
               </p>
-              <h2>Unexplored Angles and Further Research</h2>
+              <h3>Unexplored Angles and Further Research</h3>
               <p>
                 Future research could explore regional variations in dragon
                 depictions, particularly comparing motifs from northern and
