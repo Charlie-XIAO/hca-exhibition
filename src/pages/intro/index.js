@@ -26,23 +26,58 @@ export const Introduction = () => {
             <div>
               <h2>Early Dynastic Period to Han Dynasty</h2>
               <p>
-                In the early dynastic periods, dragons were primarily depicted as serpentine creatures amalgamating various animal features, symbolizing the harmonious essence of nature. These depictions, found on pottery and jade carvings, were less about imperial authority and more about shamanistic practices and communal protection. By the Han Dynasty, however, the dragon had evolved into a symbol of imperial benevolence and power, often depicted in art and literature as controlling the weather and water, crucial for agriculture.
+                In the early dynastic periods, dragons were primarily depicted
+                as serpentine creatures amalgamating various animal features,
+                symbolizing the harmonious essence of nature. These depictions,
+                found on pottery and jade carvings, were less about imperial
+                authority and more about shamanistic practices and communal
+                protection. By the Han Dynasty, however, the dragon had evolved
+                into a symbol of imperial benevolence and power, often depicted
+                in art and literature as controlling the weather and water,
+                crucial for agriculture.
               </p>
               <h2>Tang Dynasty to Yuan Dynasty</h2>
               <p>
-                During the Tang and subsequent dynasties, the dragon's imagery became more standardized and sophisticated, reflecting the centralization of imperial power. The dragon's association with the emperor was emphasized through its use in courtly art and architecture, where it adorned everything from palace walls to ceremonial robes. This period marked a significant shift, with the dragon evolving from a general symbol of good fortune to a specific emblem of the emperor's divine right to rule.
+                During the Tang and subsequent dynasties, the dragon's imagery
+                became more standardized and sophisticated, reflecting the
+                centralization of imperial power. The dragon's association with
+                the emperor was emphasized through its use in courtly art and
+                architecture, where it adorned everything from palace walls to
+                ceremonial robes. This period marked a significant shift, with
+                the dragon evolving from a general symbol of good fortune to a
+                specific emblem of the emperor's divine right to rule.
               </p>
               <h2>Ming and Qing Dynasties</h2>
               <p>
-                The Ming and Qing dynasties saw the pinnacle of dragon symbolism in imperial power. The dragon during these periods was almost exclusively associated with the emperor, depicted with five claws and in specific colors like gold and yellow, signifying the highest authority. Art from these periods shows a meticulous attention to detail in dragon depictions, with strict rules governing who could use and display dragon imagery, reinforcing social hierarchies and the exclusivity of the emperor's power.
+                The Ming and Qing dynasties saw the pinnacle of dragon symbolism
+                in imperial power. The dragon during these periods was almost
+                exclusively associated with the emperor, depicted with five
+                claws and in specific colors like gold and yellow, signifying
+                the highest authority. Art from these periods shows a meticulous
+                attention to detail in dragon depictions, with strict rules
+                governing who could use and display dragon imagery, reinforcing
+                social hierarchies and the exclusivity of the emperor's power.
               </p>
               <h2>Modern Interpretations</h2>
               <p>
-                In contemporary times, the dragon continues to be a revered symbol in Chinese culture, though its imperial connotations have diminished, making way for broader nationalistic and cultural symbolism. This shift reflects the transformation of China from a feudal imperial state to a modern nation-state, where the dragon symbolizes general prosperity, cultural heritage, and national strength rather than royal authority.
+                In contemporary times, the dragon continues to be a revered
+                symbol in Chinese culture, though its imperial connotations have
+                diminished, making way for broader nationalistic and cultural
+                symbolism. This shift reflects the transformation of China from
+                a feudal imperial state to a modern nation-state, where the
+                dragon symbolizes general prosperity, cultural heritage, and
+                national strength rather than royal authority.
               </p>
               <h2>Unexplored Angles and Further Research</h2>
               <p>
-                Future research could explore regional variations in dragon depictions, particularly comparing motifs from northern and southern China, which could reveal how geographic, climatic, and cultural differences influenced dragon iconography. Additionally, examining the role of dragons in lesser-known dynasties or in non-Han ethnic groups within China could provide new insights into the diversity and adaptability of dragon symbolism in Chinese history.
+                Future research could explore regional variations in dragon
+                depictions, particularly comparing motifs from northern and
+                southern China, which could reveal how geographic, climatic, and
+                cultural differences influenced dragon iconography.
+                Additionally, examining the role of dragons in lesser-known
+                dynasties or in non-Han ethnic groups within China could provide
+                new insights into the diversity and adaptability of dragon
+                symbolism in Chinese history.
               </p>
             </div>
           </Col>
@@ -51,7 +86,11 @@ export const Introduction = () => {
           <Col lg="12">
             <h5>
               <i>
-                This evolution of the dragon—from a communal protector to a symbol of supreme imperial authority, and now to a national emblem—illustrates the deep interconnection between cultural symbols and socio-political changes, highlighting the dragon's enduring relevance in Chinese art and culture.
+                This evolution of the dragon—from a communal protector to a
+                symbol of supreme imperial authority, and now to a national
+                emblem—illustrates the deep interconnection between cultural
+                symbols and socio-political changes, highlighting the dragon's
+                enduring relevance in Chinese art and culture.
               </i>
             </h5>
           </Col>
