@@ -24,54 +24,40 @@ export const Epilogue = () => {
           <Col lg="12">
             <div>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                facilisis sed magna ut ornare. Maecenas nibh risus, mollis nec
-                cursus id, tristique sit amet sem. Sed porttitor congue ipsum
-                viverra interdum. Duis leo orci, tristique sed viverra eget,
-                scelerisque volutpat arcu. Cras laoreet malesuada tempus. Cras
-                fringilla efficitur turpis ac molestie. Vivamus eu placerat
-                nunc. Nulla facilisi.
+                The dragon has been an important motif in Chinese culture,
+                symbolizing power, strength, as well as good fortune. This
+                exhibition showcases the evolution of the dragon motif. The five
+                artifacts that can be dated to the pre-Han period, the pig
+                dragon, the pair of arched dragon pendants, the <i>ding</i>{" "}
+                ritual vessel with the taotie decor, the jade dragon, and the
+                dragon <i>bi</i> disc, all testify to the great spiritual
+                significance possessed by the dragon motif in the early periods
+                of Chinese culture. The usage of dragon patterns in objects that
+                had ritual and political significance, such as the <i>ding</i>{" "}
+                vessel and the <i>bi</i> disc, also reveals that the dragon
+                motif began to be associated with imperial power from an early
+                age. This association became most clear during the Ming and Qing
+                dynasties. As illustrated in the panel with dragon from the Qing
+                dynasty and the badge with the five-clawed dragon from the Ming
+                dynasty, the dragon motif was used exclusively by emperors and
+                senior members of the royal family, revealing the hierarchical
+                nature of court life.
               </p>
               <p>
-                Integer vulputate eleifend odio id fringilla. Aliquam tempus
-                elit in venenatis dapibus. Phasellus a massa suscipit, posuere
-                nisi nec, blandit arcu. Etiam venenatis neque eget turpis
-                malesuada, convallis vestibulum mi hendrerit. Donec eu libero
-                non lectus ornare iaculis sit amet et arcu. Mauris placerat enim
-                eu diam rutrum sodales. Aliquam erat volutpat. Ut vulputate
-                rutrum eleifend.
+                In addition to its association with imperial authority, the
+                dragon is also worshiped as the guardian of the spiritual realm.
+                The dragon motif is depicted in the tomb tile with green dragon
+                of the East and the Chinese dragon roof tile, as it is believed
+                to be able to fend off evil and protect the living as well as
+                the dead. Dragons are also believed to be the rulers of the
+                weather as well as moving bodies of water, including waterfalls,
+                rivers, and the seas.
               </p>
               <p>
-                Morbi erat dolor, lacinia id pharetra sed, semper quis nulla. In
-                ac metus eu odio vehicula bibendum nec et dui. Fusce at ex quis
-                leo finibus luctus non sit amet purus. Aliquam sit amet
-                fringilla nunc. Donec semper neque et enim cursus, non molestie
-                diam ullamcorper. Nam vel laoreet odio, et posuere velit. Cras
-                orci felis, imperdiet id fermentum id, mollis at arcu. Orci
-                varius natoque penatibus et magnis dis parturient montes,
-                nascetur ridiculus mus.
-              </p>
-              <p>
-                Aliquam a dui a magna finibus ultricies eget commodo ipsum.
-                Aenean lorem purus, commodo et blandit at, fermentum id sapien.
-                Nulla pretium pellentesque sapien eget tempor. Pellentesque
-                habitant morbi tristique senectus et netus et malesuada fames ac
-                turpis egestas. Nunc est nisl, rutrum eget posuere id, lobortis
-                a erat. Aliquam at auctor augue, ut venenatis ligula. Aliquam a
-                sollicitudin est.
-              </p>
-              <p>
-                Aenean porttitor molestie lacus, quis interdum erat aliquam et.
-                Orci varius natoque penatibus et magnis dis parturient montes,
-                nascetur ridiculus mus. Donec pretium volutpat lobortis. Mauris
-                ex libero, scelerisque vel nibh quis, aliquam tristique urna.
-                Aenean molestie tristique massa ut vestibulum. Donec tincidunt
-                metus ut feugiat efficitur. Pellentesque in cursus lectus. Morbi
-                efficitur at ex quis faucibus. Praesent ut sapien tincidunt,
-                egestas lacus at, iaculis est. Curabitur in orci nisi. Ut ac
-                ante et diam facilisis mattis. Mauris vel diam quis urna laoreet
-                faucibus. Suspendisse hendrerit facilisis hendrerit. Nullam
-                augue urna, mattis ut nunc sit amet, commodo condimentum metus.
+                With the passage of time, the dragons have come to be viewed as
+                a symbol of Chinese culture. The dragon motif is widely used on
+                artifacts exported to foreign countries, of which the blue and
+                white "dragon" moonflask is an example.
               </p>
             </div>
           </Col>
