@@ -6,6 +6,8 @@ import imgTombGreenDragon from "./assets/tomb-green-dragon.jpg";
 import imgFiveClawedDragon from "./assets/five-clawed-dragon.png";
 import imgJadeDragon from "./assets/jade-dragon.jpg";
 import imgDragonBiDisc from "./assets/dragon-bi-disc.jpg";
+import imgDragonMoonflask from "./assets/dragon-moonflask.png";
+import imgDragonRoofTile from "./assets/dragon-roof-tile.jpg";
 import imgCover from "./assets/cover.jpeg";
 
 const logotext = "LONG【龍】";
@@ -22,7 +24,7 @@ const introdata = {
     third: "Subtitle #3",
   },
   description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In facilisis sed magna ut ornare. Maecenas nibh risus, mollis nec cursus id, tristique sit amet sem. Sed porttitor congue ipsum viverra interdum. Duis leo orci, tristique sed viverra eget, scelerisque volutpat arcu. Cras laoreet malesuada tempus. Cras fringilla efficitur turpis ac molestie. Vivamus eu placerat nunc. Nulla facilisi.",
+    "The Chinese dragon, a potent symbol of power and transformation, has undergone significant stylistic and semantic evolution through the dynasties, reflecting shifts in cultural, political, and artistic contexts. Initially emerging as a totemic figure in Neolithic China, the dragon motif has been intricately woven into the fabric of Chinese imperial iconography, embodying the divine right and celestial mandate of emperors.",
   img: imgCover,
 };
 
@@ -110,7 +112,7 @@ const dataportfolio = [
     time: "475-221 BCE",
     caption:
       "Jade. Excavated in China. Eastern Zhou dynasty, Warring States Period 475-221. The Art Institute of Chicago, Edward and Louise B. Sonnenschein Collection.",
-    desc: "As we can observe in this photograph, this matching pair of pendants depict serpentine dragons with their heads turned back, tails coiled, and small fins protruding above and below their twisting bodies. These dragons, crafted from jade, showcase the expertise of skilled artisans. Their smooth designs feature intricate details, indicating the use of tools such as saws, grinders, and drills for the carving process. We can assume from their substantial size, thickness, precise craftsmanship, and glossy finish that they were likely commissioned by aristocrats, labeled as a luxury good. The pendants likely hung from the owner's shoulders or waistband, as indicated by holes pierced through the creatures' hindquarters. Dragon motifs were seen often during the Bronze Age. Contemporary texts suggest that dragons were not only decorative but were also seen as supernatural beings. When buried with the dead, jade pendants might have symbolized the belief that dragons could carry the human soul to the afterlife. This illustrates people’s theories of life and death at that time.",
+    desc: "As we can observe in this photograph, this matching pair of pendants depict serpentine dragons with their heads turned back, tails coiled, and small fins protruding above and below their twisting bodies. These dragons, crafted from jade, showcase the expertise of skilled artisans. Their smooth designs feature intricate details, indicating the use of tools such as saws, grinders, and drills for the carving process. We can assume from their substantial size, thickness, precise craftsmanship, and glossy finish that they were likely commissioned by aristocrats, labeled as a luxury good. The pendants likely hung from the owner's shoulders or waistband, as indicated by holes pierced through the creatures' hindquarters. Dragon motifs were seen often during the Bronze Age. Contemporary texts suggest that dragons were not only decorative but were also seen as supernatural beings. When buried with the dead, jade pendants might have symbolized the belief that dragons could carry the human soul to the afterlife. This illustrates people's theories of life and death at that time.",
     ref: [
       {
         href: "https://library.artstor.org/asset/AMICO_CHICAGO_1031150546",
@@ -141,7 +143,30 @@ const dataportfolio = [
       },
       {
         href: "https://www.amazon.com/All-About-Chinese-Dragons-Bates/dp/1435703227",
-        text: "Bates, Roy. All about Chinese dragons. 2007.",
+        text: "Bates, Roy. All about Chinese Dragons. 2007.",
+      },
+    ],
+  },
+  {
+    img: imgDragonRoofTile,
+    title: "Chinese Dragon Roof Tile",
+    title_zh: "琉璃瓦",
+    time: "1366-1400 CE",
+    caption:
+      "Earthenware: a glazed ceramic roof tile. Made in Jiangsu province (probably in Zhubaoshan, near Yuhuatai, south Nanjing). It is said to be from a Ming imperial building. Kept in the British Museum, London.",
+    desc: "Roofs are thought to serve as conduits for communication between the living and spirit realms in ancient Chinese belief. As a result, they were adorned to fend off evil and serve as a magnet for good fortune and benefits. The phrase \"Liuli Wa,\" which means \"roof-tile of glass,\" refers to glazed tile work in China and dates back to the Tang Dynasty (618-906), however Tang tiles are now extremely rare. Although the soft earthenware used to produce Ming tiles varies, it frequently has an irregular composition and a high grog content. The tiles have a fully handmade appearance with plenty of fine detail and undercutting since they were mold built with a lot of hand working. Because they were low fired and coated with lead glaze, the glaze frequently runs. Two primary color schemes were used: the darker Fahau palette (turquoise, blue, and purple) and the Sancai palette (greens, yellows, and browns). Chinese glazed tiles were produced over a long period of time with minimal alteration, making dating them challenging. It's not helpful to know when the building they originated from was constructed because tiles required to be replaced periodically due to exposure to the weather, therefore a structure may have tiles that were created throughout several centuries. Nonetheless, a rough date may be deduced from the study, and it is possible to distinguish replacement tiles from the authentic Ming instances.",
+    ref: [
+      {
+        href: "https://www.worldhistory.org/image/7339/chinese-dragon-roof-tile/",
+        text: "Museum, The British. Chinese Dragon Roof Tile. World History Encyclopedia.",
+      },
+      {
+        href: "https://orientalceramics.com/product/ming-tile/",
+        text: "A Rare Imperial Yellow Ming Pottery Goutou Tile Terminal. Late 14th or Early 15th Century. Robert McPherson Antiques.",
+      },
+      {
+        href: "https://www.britishmuseum.org/collection/object/A_Franks-920",
+        text: "Roof-Tile: British Museum. The British Museum",
       },
     ],
   },
@@ -149,9 +174,9 @@ const dataportfolio = [
     img: imgFiveClawedDragon,
     title: "Badge with Five-Clawed Dragon",
     title_zh: "五爪金龍",
-    time: "1368-1644 CE",
+    time: "1550-1644 CE",
     caption:
-      "Silk and metallic-thread embroidery on plain-weave silk. China. Ming dynasty (1368-1644). The Metropolitan Museum of Art.",
+      "Silk and metallic-thread embroidery on plain-weave silk. China. Ming dynasty. The Metropolitan Museum of Art.",
     desc: 'The first Ming emperor, in his determination to eliminate anything that was Yuan, introduced the five-clawed <i>Long</i> dragon in contrast to the earlier four and three-clawed dragons, shortly after he ascended to the throne. Apart from wanting to eschew anything associated with the Mongol conquerors, he probably felt that the number of five had greater significance, especially since it was associated with the five elements. He firmly adopted the five-clawed dragon as his emblem of imperial power, and this became the standard emblem for all Ming emperors and an indicator of imperial flavor. Four and three-clawed were then relegated to being representation of lower rank. Emperors referred to themselves as the "Dragon Son of Heaven."【真龍天子】It was mandated that only the emperor\'s personal items and clothing could depict the image of the five-clawed dragon, while elsewhere, the figure of a serpent (since serpents have four claws and dragons have five) was used for differentiation.',
     ref: [
       {
@@ -160,7 +185,7 @@ const dataportfolio = [
       },
       {
         href: "https://www.amazon.com/All-About-Chinese-Dragons-Bates/dp/1435703227",
-        text: "Bates, Roy. All about Chinese dragons. 2007.",
+        text: "Bates, Roy. All about Chinese Dragons. 2007.",
       },
     ],
   },
@@ -171,11 +196,26 @@ const dataportfolio = [
     time: "1644-1911 CE",
     caption:
       "Silk satin brocaded with silk and metallic thread. China. Qing dynasty (1644-1911). The Metropolitan Museum of Art.",
-    desc: "This panel exemplifies the remarkable skill of the weavers employed in the imperial workshops during the Qing dynasty. The intricate dragon motif is woven using two types of  gold threads. The dragon’s face and scales shimmer with a lustrous quality, while its tongue, mane and claw tips are rendered in a matte finish. During the Qing dynasty, there existed a complex system of laws governing the use of animal and bird motifs on official robes. While the five-clawed dragons are used exclusively by emperors and senior members of the royalty, the four-clawed dragons (known as mang), as depicted in this panel, are reserved for use by junior members of the imperial family. This distinction in the use of dragon motifs symbolizes the status of the wearer as well as the hierarchical structure of the court.",
+    desc: "This panel exemplifies the remarkable skill of the weavers employed in the imperial workshops during the Qing dynasty. The intricate dragon motif is woven using two types of  gold threads. The dragon's face and scales shimmer with a lustrous quality, while its tongue, mane and claw tips are rendered in a matte finish. During the Qing dynasty, there existed a complex system of laws governing the use of animal and bird motifs on official robes. While the five-clawed dragons are used exclusively by emperors and senior members of the royalty, the four-clawed dragons (known as mang), as depicted in this panel, are reserved for use by junior members of the imperial family. This distinction in the use of dragon motifs symbolizes the status of the wearer as well as the hierarchical structure of the court.",
     ref: [
       {
         href: "https://www.metmuseum.org/art/collection/search/50497",
         text: "Panel with Dragon. 17th century. The Metropolitan Museum of Art.",
+      },
+    ],
+  },
+  {
+    img: imgDragonMoonflask,
+    title: "Blue and White Dragon Moonflask",
+    title_zh: "藍白龍紋月壺",
+    time: "1736-1795 CE",
+    caption:
+      "Qing glazed porcelain. The artifact was never excavated, but it was passed on or sold from family to family.",
+    desc: "It seems that the potters at the Imperial kilns were more concerned with experimenting with handle shapes than with the overall design of the vessel during the Qianlong period. During this period, moonflask handles were applied in the shapes of prehistoric animals, birds, and flora. During the Qing dynasty, deliberate efforts were made to replicate the painting style of the early Ming period. The look of early 15th-century blue and white fascinated porcelain painters of the 18th century so much that they created a unique painting technique to mimic the unintentional flaws of their models: they replicated the so-called \"heaped and piled\" effect of darker spots of cobalt blue by purposefully uneven dotting. There are numerous examples of unmarked Ming-style moonflasks, even if no additional specimens of \"dragon\" moonflasks without a Qing dynasty reign mark seem to be known.",
+    ref: [
+      {
+        href: "https://www.weisbrodcollection.com/collections/archives/products/an-extremely-rare-and-large-blue-and-white-dragon-moonflask",
+        text: "An Extremely Rare and Large Blue and White \"Dragon\" Moonflask. Weisbrod Collection.",
       },
     ],
   },

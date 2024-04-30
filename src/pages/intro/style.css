@@ -2,6 +2,11 @@
   margin-bottom: 3rem;
 }
 
+h2 {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
 .table td,
 .table th {
   color: var(--text-color);
