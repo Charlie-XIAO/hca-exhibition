@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import "./style.css";
+import "react-photo-view/dist/react-photo-view.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Link } from "react-router-dom";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
@@ -8,6 +9,7 @@ import { dataportfolio } from "../../content_option";
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 import Typewriter from "typewriter-effect";
 import { meta } from "../../content_option";
+import { PhotoProvider, PhotoView } from "react-photo-view";
 
 const SingleArtifact = ({ item }) => {
   const ref = useRef(null);
@@ -19,7 +21,11 @@ const SingleArtifact = ({ item }) => {
       <div className="artifact-container">
         <div className="artifact-wrapper">
           <div className="artifact-image" ref={ref}>
-            <img src={item.img} alt="" />
+            <PhotoProvider>
+              <PhotoView src={item.img}>
+                <img src={item.img} alt="" />
+              </PhotoView>
+            </PhotoProvider>
             <div className="artifact-caption">{item.caption}</div>
           </div>
           <motion.div className="artifact-text" style={{ y }}>
