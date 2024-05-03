@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/hca-exhibition/static/css/main.f2c2c33c.css",
-    "main.js": "/hca-exhibition/static/js/main.b29c5028.js",
+    "main.js": "/hca-exhibition/static/js/main.2f43b026.js",
     "static/media/pig-dragon.png": "/hca-exhibition/static/media/pig-dragon.6fae3165d89752c6af38.png",
     "static/media/five-clawed-dragon.png": "/hca-exhibition/static/media/five-clawed-dragon.4702a268635bd0919cf9.png",
     "static/media/dragon-moonflask.png": "/hca-exhibition/static/media/dragon-moonflask.6f63a39bd05697842bb0.png",
@@ -15,10 +15,10 @@
     "static/media/jade-dragon.jpg": "/hca-exhibition/static/media/jade-dragon.1704bca583b5e49e5af0.jpg",
     "index.html": "/hca-exhibition/index.html",
     "main.f2c2c33c.css.map": "/hca-exhibition/static/css/main.f2c2c33c.css.map",
-    "main.b29c5028.js.map": "/hca-exhibition/static/js/main.b29c5028.js.map"
+    "main.2f43b026.js.map": "/hca-exhibition/static/js/main.2f43b026.js.map"
   },
   "entrypoints": [
     "static/css/main.f2c2c33c.css",
-    "static/js/main.b29c5028.js"
+    "static/js/main.2f43b026.js"
   ]
 }
