@@ -100,7 +100,7 @@ export const Introduction = () => {
             <hr className="t_border my-4 ml-0 text-left" />
             <p>
               <div>
-                <strong>Curator:</strong> Sarah Perlman, Isabelle, Claire Hou,
+                <strong>Curator:</strong> Sarah Perlman, Isabel Villalobos, Claire Hou,
                 Calvin Lin, Yao Xiao
               </div>
               <div>
